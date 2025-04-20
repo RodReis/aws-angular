@@ -1,0 +1,38 @@
+ <main class="main-login">
+        <div class="left-login">
+            <h1>Dashboard</h1>
+            <img src="main.png" class="left-login-img" alt="astronaut image">
+        </div>
+
+        <div class="right-login">
+            <div class="card-login">
+                <h1>Login</h1>
+                <div class="textfield">
+                    <label for="user">Usuário</label>
+                    <input type="text" [(ngModel)]="loginObj.username" name="user" placeholder="email ou usuário">
+                </div>
+
+                <div class="textfield">
+                    <label for="password">Senha</label>
+                    <input type="password" [(ngModel)]="loginObj.password" name="password" placeholder="senha">
+                </div>
+
+                <button class="btn-login" (click)="onLogin()">Entrar</button>
+
+                <div class="label-login">
+                  <h2>ou entra com sua rede social</h2>
+                  <div class="social-icons">
+                      <a href="#">
+                        <img src="google.jpg" alt="Google" width="50" height="50"/>
+                      </a>
+                      <a href="#">
+                          <img src="facebook.jpg" alt="Facebook" width="50" height="50"/>
+                      </a>
+                      <a href="#">
+                        <img src="amazon.jpg" alt="Amazon" width="50" height="50"/>
+                      </a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </main>
