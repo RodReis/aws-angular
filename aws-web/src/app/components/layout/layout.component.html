@@ -1,1 +1,82 @@
-<p>layout works!</p>
+<div class="row">
+  <div class="col-3">
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-dark"
+      style="background-color: #5a5a5a"
+    >
+      <div class="container-top">
+        <div class="container-fluid">
+          <ul class="mcd-menu">
+            <li>
+              <a href="" class="active">
+                <i class="fa fa-home"></i>
+                <strong>Home</strong>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa fa-edit"></i>
+                <strong>Sobre Nós</strong>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa fa-globe"></i>
+                <strong>Novidades</strong>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa fa-cog"></i>
+                <strong>Configuração</strong>
+              </a>
+              <ul>
+                <li>
+                  <a href="#"><i class="fa fa-amazon"></i>Amazon</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-group"></i>Rede Social</a>
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa fa-google"></i>Google</a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-facebook"></i>Facebook</a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-instagram"></i>Instagram</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-trophy"></i>Rewards</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-certificate"></i>Certificates</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="">
+                <i class="fas fa-user-alt"></i>
+                <strong>Perfil</strong>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fas fa-id-card"></i>
+                <strong>Contato</strong>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="col-9">
+    <div class="container-fluid mt-5">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

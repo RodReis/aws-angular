@@ -3,7 +3,7 @@ import { MenuleftComponent } from '../menuleft/menuleft.component';
 
 @Component({
   selector: 'app-dashboard',
-  imports: [MenuleftComponent],
+  imports: [],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css'
 })
